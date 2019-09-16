@@ -3,7 +3,9 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            <h1>Made with React by Pia von Wachenfelt</h1>
+            <div className="ui container">
+                <p>Made with React by Pia von Wachenfelt</p>
+            </div>
         </footer>
     )
 }
