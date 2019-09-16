@@ -4,6 +4,7 @@
   "description": "Portfolio Challenge during week 3 of the FullStack WebDeveloper Bootcamp",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --inline --mode development --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,22 @@
     "url": "https://github.com/piavW/PortfolioChallenge/issues"
   },
   "homepage": "https://github.com/piavW/PortfolioChallenge#readme",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.8.0"
+  }
 }
