@@ -1,5 +1,5 @@
 import React from "react"
-import Projects from "./Projects"
+
 
 const ProjectCard = (props) => {
     let project = props.project 
