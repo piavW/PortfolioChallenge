@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
     let project = props.project 
     return (
         <>
-        <div class="ui card">
+        <div id="card" class="ui card">
             <div class="image">
                 <img src={project.image} />
             </div>
