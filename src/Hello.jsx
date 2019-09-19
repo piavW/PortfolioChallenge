@@ -1,5 +1,6 @@
 import React from 'react'
 import { UndrawFastLoading} from 'react-undraw-illustrations'
+import TimeOfDay from './Timeofday'
 
 const Hello = () => {
     return (
@@ -9,7 +10,7 @@ const Hello = () => {
                 <UndrawFastLoading primaryColor='#009688'/>
             </div>
             <div class="column">
-        <h1 className="ui header" >Hello World</h1>
+        <h1 className="ui header">Hello World and <TimeOfDay/></h1>
         <p>I am studying to become a fullstack junior web developer.</p>
         </div>
         </div>
