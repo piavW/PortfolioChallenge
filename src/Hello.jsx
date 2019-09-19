@@ -10,8 +10,8 @@ const Hello = () => {
                 <UndrawFastLoading primaryColor='#009688'/>
             </div>
             <div class="column">
-        <h1 className="ui header">Hello World and <TimeOfDay/></h1>
-        <p>I am studying to become a fullstack junior web developer.</p>
+        <h1 className="ui header">Hello world and <TimeOfDay/></h1>
+        <h3>I code and design web applications</h3>
         </div>
         </div>
     </div>

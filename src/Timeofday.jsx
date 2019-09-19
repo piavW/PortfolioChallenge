@@ -14,7 +14,7 @@ function TimeOfDay() {
   }
   
   return (
-    <h1>Good {timeOfDay}!</h1>
+    <>good {timeOfDay}!</>
   )
 }
 export default TimeOfDay
