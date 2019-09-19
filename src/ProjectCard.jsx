@@ -7,10 +7,14 @@ const ProjectCard = (props) => {
         <>
         <div id="card" class="ui card">
             <div class="image">
+                {/* create a project link */}
                 <img src={project.image} />
+                
             </div>
             <div class="content">
-                <h3 class="ui header">{project.name}</h3>
+                <h3 class="ui header"><a href={project.link}>{project.name} </a>
+                    
+                </h3>
 
                 <div class="description">
                     {project.description}

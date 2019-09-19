@@ -3,24 +3,28 @@
       "id": 1,
       "name": "My First Website",
       "image": "https://learning.mozilla.org/img/pages/make-your-first-webpage/html9.png",
-      "description": "This was my first project during the introduction to programming course."
+      "description": "This was my first project during the introduction to programming course.",
+      "link": "https://piavw.github.io/"
     },
     {
       "id": 2,
       "name": "FizzBuzz",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2V0XVYjjDciLFmvmVLIaGRp5PoCvzkFYdMEqiJcsYZ8durO_",
-      "description": "The well known Fizz-Buzz game, a great way to do testdriven development!"
+      "description": "The well known Fizz-Buzz game, a great way to do testdriven development!",
+      "link":"https://piavw.github.io/FizzBuzz-JSedition/"
     },
     {
         "id": 3,
         "name": "My Address Book",
         "image": "https://www.macforbeginners.com/wp/wp-content/uploads/2015/04/address-book-1024x768.jpg",
-        "description": "Pair-programming and working with test-driven development to create an adress book using Local Storage."
+        "description": "Pair-programming and working with test-driven development to create an adress book using Local Storage.",
+        "link": "https://myaddressbook.netlify.com/"
     },
     {
         "id": 4,
         "name": "BMI-calculator",
         "image": "https://images.pexels.com/photos/37417/diet-calorie-counter-weight-loss-health.jpg?auto=compress&cs=tinysrgb&h=750&w=1260",
-        "description": "Developing a BMI-calculator"
+        "description": "Developing a BMI-calculator",
+        "link": "https://piavw.github.io/BMIchallenge/"
     }
 ]
