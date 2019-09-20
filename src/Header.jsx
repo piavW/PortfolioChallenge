@@ -7,6 +7,7 @@ const Header = () => {
             <div className="ui container">
                 <Link className="header item" to='/'>My Portfolio</Link>
                 <div className="right menu">
+                    <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/CV'> Jobs and Education</NavLink>
                     <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/about'>About Me</NavLink>
                     <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/projects'>My projects</NavLink>
                 </div>
