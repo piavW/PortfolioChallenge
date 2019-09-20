@@ -1,0 +1,17 @@
+[
+    {   "id": "1",
+        "graduation": "2019",
+        "name": "Practical projectmanagement course",
+        "school": "Stockholm University"
+    },
+    {   "id": "2",
+        "graduation": "Graduated 2016",
+        "name": "Socionom/bachelors in social care",
+        "school": "Linköping University" 
+    },
+    {   "id": 3,
+        "year": "Grade B",
+        "name": "Certificate in Advanced English/Cambdrige Proficiency Exam",
+        "description": "Cambridge ESOL Level 2" 
+    }
+]

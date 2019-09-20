@@ -1,0 +1,17 @@
+[
+    {   "id": 1,
+        "years": "2017-2019",
+        "name": "Biståndsbedömare/case-worker in Linköping",
+        "description": "Case-worker for the municipal evaluation of an inidividuals right to aid given from the municipality to the elderly." 
+    },
+    {   "id": 2,
+        "year": "2016-2017",
+        "name": "Biståndshandläggare/case-worker in Norrköping",
+        "description": "Case-worker for the municipal evaluation of an inidividuals right to aid given from the municipality to the elderly." 
+    },
+    {   "id": 3,
+        "year": "2014-2016",
+        "name": "Assistant branchhead-manager",
+        "description": "On-call branch-head of geriatric care in Norrköping municipality. " 
+    }
+]
