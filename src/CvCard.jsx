@@ -1,15 +1,19 @@
 import React from 'react'
 
-
 const CvCard = (props) => {
     let cv = props.cv
     return (
         <>
-        <div className="column">
-           <p>{cv.name}</p> 
-        </div>
-        <div className="column">
-            {cv.description} {cv.years}
+        <div id="card" class="ui card">
+            <div className="column">
+            <p>{cv.name}</p> 
+            </div>
+            <div className="description">
+                <p>{cv.description} </p>
+            </div>
+            <div className="years">
+                {cv.years}
+            </div>
         </div>
         </>
     )

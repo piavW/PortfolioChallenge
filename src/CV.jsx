@@ -12,8 +12,8 @@ class CV extends Component {
         };
     }
     componentDidMount() {
-        this.getCVList,
-        this.getEduLIst
+        this.getCVList()
+        this.getEduList()
     }
     getCVList() {
         axios.get('./src/data/jobexp.json')
@@ -40,7 +40,7 @@ class CV extends Component {
             cvlist = cvs.map(cv => {
                 return (
                     <div key={cv.id}>
-                        <CvCard cvs={cv} />
+                        <CvCard cv={cv} />
                     </div>
                 )
             })
@@ -51,7 +51,7 @@ class CV extends Component {
             edulist = edus.map(education => {
                 return (
                     <div key={education.id}>
-                        <EduCard edus={education} />
+                        <EduCard education={education} />
                     </div>
                 )
             })
@@ -59,12 +59,17 @@ class CV extends Component {
     
     return(
         <div className="ui main container">
-            <div className="column"></div>
-            <h1 className="ui Header">Here are my most recent jobexperiences and relevant education</h1>
-                <div className="ui stackable four column grid">
-                {cvlist}
-                {edulist}
-                </div>
+            <div className="column">
+                <h1 className="ui Header">Here are my most recent jobexperiences and relevant education</h1>
+            </div>
+            <div className="ui stackable four column grid">
+               <div className="column">
+               {cvlist} </div> 
+               <div className="column">
+               {edulist}
+               </div>
+                
+            </div>
         </div>
     )
     }
