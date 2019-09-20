@@ -14,5 +14,8 @@ This code creates a personal project portfolio which displays my deployed projec
 - Babel
 - Webpack
 
+## References
+Pictures from UnDraw and Pexels.
+
 ## License
 MIT-license

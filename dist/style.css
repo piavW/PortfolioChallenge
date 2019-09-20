@@ -16,7 +16,11 @@ footer {
     margin-top: 4rem;
 }
 
-/* ProjectCard */
+/* Card styling */
 #card {
     margin: 0.5rem; 
+    border: solid;
+    border-color: grey;
+    border-width: 0.2rem;
+
 }

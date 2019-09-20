@@ -5,14 +5,21 @@ const CvCard = (props) => {
     return (
         <>
         <div id="card" class="ui card">
-            <div className="column">
-            <p>{cv.name}</p> 
+            <div class="image">
+                <img src={cv.image} />
             </div>
-            <div className="description">
-                <p>{cv.description} </p>
-            </div>
-            <div className="years">
-                {cv.years}
+            <div class="extra content">
+                <a>
+                    <div className="column">
+                        <h2>{cv.name}</h2> 
+                    </div>
+                    <div className="description">
+                        <h4>{cv.description}</h4>
+                    </div>
+                    <div className="year">
+                        {cv.year}
+                    </div>
+                </a>
             </div>
         </div>
         </>

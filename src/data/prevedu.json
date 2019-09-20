@@ -1,17 +1,20 @@
 [
     {   "id": "1",
-        "graduation": "2019",
+        "year": "2019",
         "name": "Practical projectmanagement course",
-        "school": "Stockholm University"
+        "description": "Stockholm University",
+        "image": "https://www.su.se/polopoly_fs/1.330326.1493279438!/menu/standard/file/SU%20LOGO%20ENG.jpg" 
     },
     {   "id": "2",
-        "graduation": "Graduated 2016",
+        "year": "Graduated 2016",
         "name": "Socionom/bachelors in social care",
-        "school": "Linköping University" 
+        "description": "Linköping University",
+        "image": "https://i.imgur.com/tkM7NLO.png"  
     },
     {   "id": 3,
         "year": "Grade B",
         "name": "Certificate in Advanced English/Cambdrige Proficiency Exam",
-        "description": "Cambridge ESOL Level 2" 
+        "description": "Cambridge ESOL Level 2",
+        "image": "http://www.minerva.bg/wp-content/uploads/cambridge-english-proficiency-logo.jpg"  
     }
 ]
